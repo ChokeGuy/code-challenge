@@ -14,6 +14,7 @@
 ```sh
  git clone https://github.com/ChokeGuy/code-challenge
 ```
+
 2. Navigate to the `code-challenge` directory:
 
 ```sh
@@ -74,6 +75,7 @@ cd code-challenge
    ```
 7. Once the server is running, you can test the APIs using the provided **Postman collection**:
    - [Postman Collection](https://www.postman.com/bold-capsule-703444/workspace/resources-service)
+   - You may be asked to download the postman agent to run the apis on postman website
    - Make sure to switch the **environment** to `env` before running the tests.
 
 ---
