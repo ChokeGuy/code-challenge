@@ -39,3 +39,5 @@ function sum_to_n_b(n: number): number {
 function sum_to_n_c(n: number): number {
     return n * (n + 1) / 2
 }
+
+console.log(sum_to_n_a(10))
