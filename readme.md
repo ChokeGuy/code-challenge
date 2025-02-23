@@ -1,11 +1,21 @@
 # Project Setup Guide
 
+## Prerequisites
+
+- **Git** installed
+- **Node.js** installed (version 16+ recommended)
+- **Docker Desktop** installed and running
+- An **IDE** such as VS Code, WebStorm, or any preferred editor
+
+## Clone the Repository
+
+To get started, clone the repository:
+
+```sh
+ git clone https://github.com/ChokeGuy/code-challenge
+```
+
 ## Problem 4 - Three Ways to Sum `n`
-
-### Prerequisites
-
-- Ensure you have **Node.js** installed (version 16+ recommended).
-- An **IDE** such as VS Code, WebStorm, or any preferred editor.
 
 ### How to Run
 
@@ -22,12 +32,6 @@
 ---
 
 ## Problem 5 - CRUD Resources API
-
-### Prerequisites
-
-- **Node.js** installed (version 16+ recommended).
-- **Docker Desktop** installed and running.
-- An **IDE** such as VS Code, WebStorm, or any preferred editor.
 
 ### Setup and Run
 
