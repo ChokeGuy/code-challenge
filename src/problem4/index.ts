@@ -41,3 +41,5 @@ function sum_to_n_c(n: number): number {
 }
 
 console.log(sum_to_n_a(10))
+console.log(sum_to_n_b(10))
+console.log(sum_to_n_c(10))
