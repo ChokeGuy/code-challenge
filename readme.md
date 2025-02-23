@@ -162,9 +162,7 @@ The system follows an event-driven architecture using Redis as a queue for proce
 **Headers:**
 
 ```json
-{
   "Authorization": "Bearer yourAccessToken"
-}
 ```
 
 **Response:**
@@ -328,12 +326,18 @@ The score update requests are processed using a Redis queue.
 4. The worker fetches the latest top 10 scores and updates Redis Cache.
 5. The WebSocket server sends an update to all connected clients.
 
-### **Worker Authorization Verification:**
+---
 
-- Each score update request must include an authorization token.
-- The worker will verify the token against an authentication service before processing the score update.
-- If verification fails, the request will be discarded.
-- The worker will check against a **Redis-based Token Blacklist** to reject revoked tokens.
+## Tech Stack
+
+### **Backend:**
+
+- **Node.js** – Runtime environment for executing JavaScript/Typescript code on the server.
+- **Express.js** – Web framework for building APIs.
+- **Redis** – Used for **message queue (Redis Queue)** and **caching leaderboard data**.
+- **PostgreSQL** – Relational database for storing users and scores.
+- **WebSocket (ws library)** – Handles real-time leaderboard updates.
+- **JWT & PASETO** – Authentication and token handling.
 
 ---
 
