@@ -9,10 +9,15 @@
 
 ## Clone the Repository
 
-To get started, clone the repository:
+1. To get started, clone the repository:
 
 ```sh
  git clone https://github.com/ChokeGuy/code-challenge
+```
+2. Navigate to the `code-challenge` directory:
+
+```sh
+cd code-challenge
 ```
 
 ## Problem 4 - Three Ways to Sum `n`
